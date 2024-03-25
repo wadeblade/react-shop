@@ -1,0 +1,85 @@
+.item {
+    position: relative;
+    width: 30%;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+.fullImage {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+.fullImage:hover {
+    transform: scale(1.05);
+}
+
+.fullHeading,
+.fullDescription,
+.fullPrice {
+    margin: 10px 20px;
+    color: #333;
+}
+
+.fullPrice {
+    color: #32d74d;
+}
+
+.addToCart {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #ca5252;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 500ms ease;
+    border: none;
+}
+
+.addToCart:hover {
+    transform: scale(1.5) translateY(-5px);
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+}
+
+.fullItem {
+    width: 600px;
+    position: relative;
+    margin: 10% auto;
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.closeModal {
+    background: transparent;
+    border: none;
+    float: right;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.closeModal:hover {
+    transform: scale(1.3);
+}
